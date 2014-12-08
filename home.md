@@ -11,7 +11,7 @@ comments: false
       <li>
         <h3>
             <i class="fa fa-fw fa-home"></i>&nbsp;·&nbsp;
-            <a href="/bienvenidos">Bienvenidos</a>
+            <a href="/bienvenidos">General</a>
         </h3>
       </li>
       <li>
