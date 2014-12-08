@@ -1,0 +1,12 @@
+# Site settings
+title: Into the Wild
+email: alhama.granada.2014@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Web destinada a la organización de la excursion a Alhama de Granada
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "alhama.github.io" # the base hostname & protocol for your site
+twitter_username: Neko250
+github_username:  Alhama
+
+# Build settings
+markdown: kramdown

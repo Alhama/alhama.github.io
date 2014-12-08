@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="home">
+    <script>
+        function passWord() {
+            var testV = 1;
+            var pass1 = prompt('Por favor, introduce el password','');
+            
+            while (testV < 3) {
+                if (!pass1)
+                    history.go(-1);
+                
+                if (pass1.toLowerCase() == "supertramp") {
+                    alert('Bienvenido a casa!');
+                    window.open('home');
+                    break;
+                }
+                
+                testV += 1;
+                var pass1 = prompt('Acceso denegado (password incorrecto), Intentalo de nuevo.','Password');
+            }
+            
+            if (pass1.toLowerCase() != "password" & testV == 3)
+                history.go(-1);
+            
+            return " ";
+        }
+    </script>
+    <center>
+        <img src="https://i.imgur.com/b4uvCKN.png" style="border-radius:20px;"><br><br>
+        <form class="wow rubberBand" data-wow-delay="0.5s">
+            <i class="fa fa-lg fa-leaf"></i>&nbsp;
+            <input type="button" class="btn btn-primary" value="Ir Hacia Rutas Salvajes..." onClick="passWord()">
+            &nbsp;<i class="fa fa-lg fa-leaf"></i>
+        </form>
+    </center>
+</div>

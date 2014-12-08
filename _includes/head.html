@@ -1,0 +1,25 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{{ site.description }}">
+    
+    <link rel="icon" href="https://neko250.github.io/Blog250/favicon.png">
+
+    <script src="https://neko250.github.io/GoldenPhi/resources/pace/pace.min.js"></script>
+    <link rel="stylesheet" href="https://neko250.github.io/GoldenPhi/resources/pace/themes/flash.css">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://neko250.github.io/GoldenPhi/resources/bootstrap/css/bootstrap.min.css">
+    <script src="https://neko250.github.io/GoldenPhi/resources/bootstrap/js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://neko250.github.io/GoldenPhi/resources/animate.css">
+    <script src="https://neko250.github.io/GoldenPhi/resources/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <link rel="stylesheet" href="https://neko250.github.io/GoldenPhi/resources/neko250.css">
+</head>
