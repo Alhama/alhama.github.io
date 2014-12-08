@@ -23,7 +23,7 @@ comments: false
       <li>
         <h3>
             <i class="fa fa-fw fa-shopping-cart"></i>&nbsp;·&nbsp;
-            <a href="/fecha">Compras</a>
+            <a href="/compras">Compras</a>
         </h3>
       </li>
       <li>
